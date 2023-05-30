@@ -1,10 +1,66 @@
-h1{
-  font-size: 3rem;
+/* Normalize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a{
-  display: block;
-  text-decoration: none;
-  font-size: 1.2rem;
-  color: #888;
+/* Variables */
+:root {
+  /* colores */
+  --colorPrincipal: #f37748;
+  --colorSecundario: #ffffff;
+  --resaltador: #84bcda;
+  --fondoFooter: #f24e1e;
+
+  /* fuentes */
+
+}
+
+
+/* NAVBAR */
+
+.navbar {
+  background-color: var(--colorSecundario);
+  height: 150px;
+  color: var(--colorPrincipal);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & img {
+    margin: 20px 0 20px 30px;
+    height: 87px;
+    width: 150px;
+  }
+
+  & ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    font-size: 30px;
+    margin-right: 130px;
+    padding-left: 40px;
+
+    & a {
+      text-decoration: none;
+      color: var(--colorPrincipal);
+    }
+  }
+}
+
+
+
+/* Footer */
+
+footer {
+  background-color: var(--fondoFooter);
+  height: 200px;
+  width: 100%;
+  z-index: 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 25px;
 }

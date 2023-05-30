@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
 
 function Products() {
   return (
     <>
-      <h2>Products</h2>
+      <Navbar />
       <Link to={'/'}>volver</Link>
+      <Footer />
     </>
   )
 }
