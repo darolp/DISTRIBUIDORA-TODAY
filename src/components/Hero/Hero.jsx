@@ -1,11 +1,13 @@
 import React from 'react'
 
-function Hero({children}) {
+function Hero({ children }) {
   return (
     <>
-      <div className='heroContent'>
-        {children}
-      </div>
+      <section className='heroContainer'>
+        <div className='heroContent'>
+          {children}
+        </div>
+      </section>
     </>
   )
 }

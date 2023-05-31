@@ -8,8 +8,9 @@ function Home() {
     <>
       <Navbar />
       <Hero>
-        <h1>Te resolvemos la comida <br></br> de <span>hoy</span> y la de <span>todos los días</span></h1>
+        <h1>Te resolvemos la comida <br/> de <span>hoy</span> y la de <span>todos los días</span></h1>
         <p>Nuestros productos son 100% caseros y te los entregamos congelados para que los disfrutes cuando quieras. ¡Es súper fácil!</p>
+        <button>Conocé nuestros productos</button>
       </Hero>
       <Footer />
     </>
