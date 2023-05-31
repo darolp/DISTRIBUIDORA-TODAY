@@ -5,10 +5,10 @@ function Footer() {
     <footer>
     <img src="./today distri.png" alt=""/>
     <p>HECHO COMO EN CASA &#x2764</p>
-    <div class="comunicate">
+    <div className="comunicate">
       <p>Comunicate con nosotros </p>
-      <div class="comunicateSub">
-        <i class="fa-brands fa-whatsapp"></i>
+      <div className="comunicateSub">
+        <i className="fa-brands fa-whatsapp"></i>
         <p>0261 334-0137</p>
       </div>
 

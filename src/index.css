@@ -1,9 +1,23 @@
+/* Variables */
+:root {
+  /* colores */
+  --colorPrincipal: #F37748;
+  --colorSecundario: #023047;
+  --resaltador: #84BCDA;
+  --complementario: #fff;
+
+  /* fuentes */
+  --titulos: 'Sansita Swashed', cursive;
+  --textos: 'Inter', sans-serif;
+}
+
 /* Normalize */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 body{
   background-image: url('./assets/imgs/fondo.jpg');
 }
@@ -17,41 +31,114 @@ body{
 
   /* fuentes */
 
+=======
+
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--titulos)
+>>>>>>> 1d3e92a54a904007f780a431797422280c72bff3
 }
+
+p{
+  font-family: var(--textos);
+}
+
 
 
 /* NAVBAR */
 
 .navbar {
-  background-color: var(--colorSecundario);
-  height: 150px;
-  color: var(--colorPrincipal);
+  background-color: transparent;
+  height: 100px;
+  width: 100%;
+  color: var(--complementario);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+}
 
-  & img {
-    margin: 20px 0 20px 30px;
-    height: 87px;
-    width: 150px;
-  }
+.navbar img {
+  margin: 20px 0 20px 30px;
+  height: 87px;
+  width: 150px;
+}
 
+<<<<<<< HEAD
   & ul {
     list-style: none;
     display: flex;
     gap: 60px;
     font-size: 30px;
     padding-left: 40px;
+=======
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  font-size: 1.5rem;
+  margin-right: 130px;
+  padding-left: 40px;
+}
+>>>>>>> 1d3e92a54a904007f780a431797422280c72bff3
 
-    & a {
-      text-decoration: none;
-      color: var(--colorPrincipal);
-    }
-  }
+.navbar a {
+  text-decoration: none;
+  font-family: var(--titulos);
+  color: var(--complementario);
 }
 
 /* Contacto */
 
+/* Hero */
+.heroContainer{
+  height: 100vh;
+  width: 100%;
+  background-image: url(./assets/imgs/Fondo.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContent{
+  border: 2px solid var(--complementario);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+  width: 82%;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+.heroContent h1{
+  color: var(--complementario);
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+.heroContent p{
+  color: var(--complementario);
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 40px;
+  width: 70%;
+}
+
+.heroContent span{
+  color: var(--colorPrincipal);
+}
+
+.heroContent button{
+  border: none;
+  color: var(--complementario);
+  background-color: var(--colorPrincipal);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
 
 .contactoContainer{
   display: flex;
