@@ -8,13 +8,14 @@
 /* Variables */
 :root {
   /* colores */
-  --colorPrincipal: #f37748;
-  --colorSecundario: #ffffff;
-  --resaltador: #84bcda;
-  --fondoFooter: #f24e1e;
+  --colorPrincipal: #F37748;
+  --colorSecundario: #023047;
+  --resaltador: #84BCDA;
+  --complementario: #fff;
 
   /* fuentes */
-
+  --titulos: 'Sansita Swashed', cursive;
+  --textos: 'Inter', sans-serif;
 }
 
 
