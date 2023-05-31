@@ -2,12 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
+import Contacto from '../../components/Contancto/Contacto';
+
 
 function Contact() {
   return (
     <>
-      <Navbar />
-      <Link to={'/'}>volver</Link>
+      <Navbar />      
+      <Contacto />      
       <Footer />
     </>
   )

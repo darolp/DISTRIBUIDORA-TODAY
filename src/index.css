@@ -4,7 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  background-image: url('./assets/imgs/fondo.jpg');
+}
 /* Variables */
 :root {
   /* colores */
@@ -39,7 +41,6 @@
     display: flex;
     gap: 60px;
     font-size: 30px;
-    margin-right: 130px;
     padding-left: 40px;
 
     & a {
@@ -49,8 +50,148 @@
   }
 }
 
+/* Contacto */
 
 
+.contactoContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contactoContainerSub {
+  background-color:#353230;
+  color:white;
+  border-radius: 15px;
+  width: 98%;  
+}
+
+.infoTopContacto{
+  display: flex;
+  margin-top: 17px;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+
+.tituloInfoTopContacto{
+  font-size: 24px;
+  font-family: sanita;
+  font-family: 'Sansita Swashed', cursive;
+  margin-left: 100px;
+}
+
+.redesInfoTopContacto{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.facebook{
+  background-color:#2789E3;
+  border-radius: 50px;
+  border: 6px solid #2789E3;
+  font-size: 11px;
+  width: 25px;
+  padding-left: 3px;
+  margin-right: 15px;
+
+}
+.instagram{
+  color:white;
+  background-color:#E300CD;
+  border-radius: 50px;
+  border: 6px solid #E300CD;
+  font-size: 13px;
+  width: 25px;  
+  margin-right: 15px;
+  padding-left: 1px;
+}
+.whatsapp{
+  color:white;
+  background-color:#0DBA52;
+  border-radius: 50px;
+  border: 6px solid #0DBA52;
+  padding-left: 1px;
+  font-size: 13px;
+  width: 25px;  
+  margin-right: 15px;
+}
+
+.location{
+  color:white;
+  background-color:#FE3E3E;
+  border-radius: 50px;
+  border: 6px solid #FE3E3E;
+  padding-left: 2px;
+  font-size: 13px;
+  width: 25px;  
+  margin-right: 15px;
+
+}
+
+.botonSubmit{
+  height: 56px;
+  width: 118px;
+  background-color: #f37748;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  font-size: 18px;
+  margin-top: 50px;
+  align-self: flex-end;
+}
+
+.formulario{
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;  
+  height: 620px;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+.contenedorDatos{
+  display: flex;
+  justify-content:space-between;
+  gap:30px;
+}
+.contenedorDatos1,.contenedorDatos2,.contenedorDatos3{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  width: 40%;
+}
+
+.contenedorDatosComent{
+  display:flex;
+  flex-direction: column;
+  gap:10px;  
+}
+
+.contenedorDatosComent{
+  margin-top: 50px;
+}
+
+.contenedorDatos1 input,.contenedorDatos2 input,.contenedorDatos3 input{
+  width: 100%;
+  height: 37px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contenedorDatosComent textarea{
+  width: 100%;
+  height: 271px;
+  border-radius: 5px;
+}
+
+.contactoFormContainer p{
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 32px;
+  margin-left: 100px;
+}
 /* Footer */
 
 footer {
