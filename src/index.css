@@ -72,6 +72,18 @@ p{
   color: var(--complementario);
 }
 
+.navbarScrolled{
+  background-color: var(--complementario);
+  transition: 1s all;
+}
+
+.navbarScrolled a{
+  color: var(--colorSecundario);
+}
+
+.active{
+  color: var(--colorPrincipal) !important;
+}
 
 /* Hero */
 .heroContainer{
