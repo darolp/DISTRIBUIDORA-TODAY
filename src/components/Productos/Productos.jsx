@@ -28,11 +28,11 @@ const Productos = () => {
         <div className="ProductosContainer">
             <div className='navProductos'>
                 <ul>
-                    <li onClick={() => handleCategoryClick('Pastas')}>Pastas</li>
-                    <li onClick={() => handleCategoryClick('Panificados')}>Panificados</li>
-                    <li onClick={() => handleCategoryClick('EmpanadasyTartas')}>Empanadas y Tartas</li>
-                    <li onClick={() => handleCategoryClick('Helados')}>Helados</li>
-                    <li onClick={() => handleCategoryClick('Insumos')}>Insumos</li>
+                    <li className={({isActive}) => isActive ? 'active' : ""} onClick={() => handleCategoryClick('Pastas')}>Pastas</li>
+                    <li className={({isActive}) => isActive ? 'active' : ""} onClick={() => handleCategoryClick('Panificados')}>Panificados</li>
+                    <li className={({isActive}) => isActive ? 'active' : ""} onClick={() => handleCategoryClick('EmpanadasyTartas')}>Empanadas y Tartas</li>
+                    <li className={({isActive}) => isActive ? 'active' : ""} onClick={() => handleCategoryClick('Helados')}>Helados</li>
+                    <li className={({isActive}) => isActive ? 'active' : ""} onClick={() => handleCategoryClick('Insumos')}>Insumos</li>
                 </ul>
             </div>
             <div className='productosView'>

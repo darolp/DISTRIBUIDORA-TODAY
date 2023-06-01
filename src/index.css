@@ -11,9 +11,6 @@
   --textos: 'Inter', sans-serif;
 }
 
-body{
-  background-image: url('./assets/imgs/Fondo.jpg');
-}
 
 /* Normalize */
 * {
@@ -341,6 +338,7 @@ p{
 .card-img img{
  width: 100%;
  height: 100%;
+ object-fit: cover;
 }
 .cardInfo{
   background-color: white; 
