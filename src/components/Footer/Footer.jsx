@@ -1,9 +1,13 @@
 import React from 'react'
+import logo2 from '../../assets/imgs/logo2.png'
+
 
 function Footer() {
+
+
   return (
     <footer>
-    <img src="./today distri.png" alt=""/>
+    <img src={logo2} alt=""/>
     <p>HECHO COMO EN CASA &#x2764</p>
     <div className="comunicate">
       <p>Comunicate con nosotros </p>

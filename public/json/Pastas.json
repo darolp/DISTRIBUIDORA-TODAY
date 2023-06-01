@@ -1,0 +1,22 @@
+[
+    {
+        "img":"Ravioles",
+        "nombre":"Ravioles",
+        "texto":"Jamon y ricota - Verdura y pollo -Batata con cebolla caramelizada - Roquefort"
+    },
+    {
+        "img":"Lasagna",
+        "nombre":"Lasagna",
+        "texto":"Carne, verdura , jamón y queso"
+    },
+    {
+        "img":"Canelones",
+        "nombre":"Canelones",
+        "texto":"Carne y verdura - Verdura y ricota - Pollo y queso"
+    },
+    {
+        "img":"Sorrentinos",
+        "nombre":"Sorrentinos",
+        "texto":"Jamón y muzzarella - 4 quesos"
+    }
+]
