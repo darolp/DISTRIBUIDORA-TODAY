@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import Hero from '../../components/Hero/Hero';
+import HomeContent from '../../components/HomeContent/HomeContent';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
         <p>Nuestros productos son 100% caseros y te los entregamos congelados para que los disfrutes cuando quieras. ¡Es súper fácil!</p>
         <button>Conocé nuestros productos</button>
       </Hero>
+      <HomeContent/>
       <Footer />
     </>
   )

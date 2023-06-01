@@ -51,6 +51,7 @@ p {
   align-items: center;
   position: fixed;
   top: 0;
+  z-index: 3;
 }
 
 .navbar img {
@@ -138,6 +139,190 @@ p {
   border-radius: 20px;
   margin-top: 20px;
 }
+
+/* Home */
+.homeContent{
+  background-image: url('./assets/imgs/fondoHome.png');
+  padding-top: 80px;
+}
+
+.homeInfoContainer{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.homeCard{
+  background-color: var(--resaltador);
+  width: 400px;
+  height: 276px;
+  border-radius: 15px;
+}
+
+.marco{
+  width: 400px;
+  height: 276px;
+  border-radius: 15px;
+  border: 2px solid var(--colorSecundario);
+  transform: translateX(-10px) translateY(-10px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.marco h2{
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.marco p{
+  font-size: 18px;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.marco img{
+  position: absolute;
+  top: -35px;
+  right: calc(50% - 40px);
+}
+
+.homeInfoItem{
+  height: 316px;
+  width: 400px;
+  text-align: center;
+}
+
+.homeInfoItem h2{
+  font-size: 42px;
+  font-weight: 900;
+  color: var(--colorPrincipal);
+  margin-bottom: 40px;
+  background-color: var(--complementario);
+}
+
+.homeInfoItem button{
+  border: none;
+  background-color: var(--colorPrincipal);
+  color: var(--complementario);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 15px 15px 40px;
+  border-radius: 20px;
+  width: 261px;
+  height: 80px;
+  cursor: pointer;
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.homeInfoItem button img{
+  position: absolute;
+  left: 25px;
+}
+
+.homeGallery{
+  background-color: var(--colorSecundario);
+  color: var(--complementario);
+}
+
+.galleryText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 20px;
+}
+
+.galleryText h2 {
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.galleryText p {
+  font-size: 24px;
+  line-height: 134%;
+  padding: 40px 25%;
+}
+
+.galleyContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  place-items: center;
+  gap: 20px;
+  padding: 0 5%;
+}
+
+.galleyContainer img{
+  width: 100%;
+}
+
+.galleryButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.galleryButton button{
+  background-color: var(--resaltador);
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+}
+
+.homeRedes{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.seguinos p{
+  font-size: 24px;
+}
+
+.redes{
+  display: flex;
+  gap: 20px;
+}
+
+.navHome ul{
+  display: flex;
+  font-size: 24px;
+  font-style: var(--textos);
+  padding-bottom: 50px;
+}
+.navHome ul a{
+  text-decoration: none;
+  color: black;
+}
+
+.navHome ul li{
+  margin: 0 20px;
+  padding: 0 20px;
+}
+
+.navHome ul li::marker{
+  color: var(--colorPrincipal);
+  font-size: 2rem;
+}
+
+.firstItem{
+  list-style: none;
+}
+
 
 /*Contacto */
 .contactoContainer {
