@@ -527,8 +527,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 45%;
-  height: 670px;
-  background-color: #0DBA52;
+  height: 670px; 
   overflow: hidden;
 
 }

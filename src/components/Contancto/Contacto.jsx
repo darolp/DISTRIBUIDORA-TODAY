@@ -20,10 +20,10 @@ const Contacto = () => {
                 <div className='infoTopContacto'>
                     <p className='tituloInfoTopContacto'>Contáctenos</p>
                     <div className='redesInfoTopContacto'>
-                        <p><i class="fa-brands fa-whatsapp whatsapp"></i> 2613340137</p>
-                        <p><i class="fa-brands fa-instagram instagram"></i> todayhechocomoencasa</p>                     
-                        <p><i class="fa-brands fa-facebook-f facebook"></i> Today .Hecho como en Casa</p>
-                        <p><i class="fa-solid fa-location-dot location"></i> Mendoza - Argentina</p>
+                        <p><i className="fa-brands fa-whatsapp whatsapp"></i> 2613340137</p>
+                        <p><i className="fa-brands fa-instagram instagram"></i> todayhechocomoencasa</p>                     
+                        <p><i className="fa-brands fa-facebook-f facebook"></i> Today .Hecho como en Casa</p>
+                        <p><i className="fa-solid fa-location-dot location"></i> Mendoza - Argentina</p>
                     </div>
                 </div>
                 <div className='contactoFormContainer'>

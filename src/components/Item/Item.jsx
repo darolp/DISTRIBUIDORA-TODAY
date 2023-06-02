@@ -13,7 +13,7 @@ const Item = ({data}) => {
                     <div className="cardInfo">
                         <h5 className="card-title">{data.nombre}</h5>   
                         <p>{data.texto}</p>                 
-                        <Link  to={"ws"}><button className='boton'><i class="fa-brands fa-whatsapp whatsapp"></i> Hacé tu pedido</button></Link>
+                        <Link  to={"ws"}><button className='boton'><i className="fa-brands fa-whatsapp whatsapp"></i> Hacé tu pedido</button></Link>
                     </div>
                </div>   
         
