@@ -5,6 +5,7 @@
   --colorSecundario: #023047;
   --resaltador: #84BCDA;
   --complementario: #fff;
+  --fondoSecundario: #FFD2C1;
 
   /* fuentes */
   --titulos: 'Sansita Swashed', cursive;
@@ -321,6 +322,104 @@ p {
 
 .firstItem{
   list-style: none;
+  transform: translateY(8px);
+}
+
+/* Nosotros */
+
+.nosotrosContainer{
+  background-image: url('./assets/imgs/fondoHome.png');
+  padding-top: 80px;
+}
+
+.nosotrosInfoContainer{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nosotrosCard{
+  background-color: var(--fondoSecundario);
+  width: 399px;
+  height: 399px;
+  border-radius: 15px;
+}
+
+.nosotrosMarco{
+  width: 399px;
+  height: 399px;
+  border-radius: 15px;
+  border: 2px solid var(--colorPrincipal);
+  transform: translateX(-10px) translateY(-10px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nosotrosMarco h2{
+  font-size: 42px;
+  font-weight: bold;
+  color: var(--colorPrincipal);
+}
+
+.nosotrosMarco p{
+  font-size: 18px;
+  padding: 0 20px;
+  margin-top: 30px;
+  color: var(--colorPrincipal);
+}
+
+.nosotrosMarco img{
+  position: absolute;
+  top: -35px;
+  right: -15px;
+}
+
+.nosotrosRedes{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.seguinos p{
+  font-size: 24px;
+}
+
+.redes{
+  display: flex;
+  gap: 20px;
+}
+
+.navNosotros ul{
+  display: flex;
+  font-size: 24px;
+  font-style: var(--textos);
+  padding-bottom: 50px;
+}
+.navNosotros ul a{
+  text-decoration: none;
+  color: black;
+}
+
+.navNosotros ul li{
+  margin: 0 20px;
+  padding: 0 20px;
+}
+
+.navNosotros ul li::marker{
+  color: black;
+  font-size: 2rem;
+}
+
+.firstItem{
+  list-style: none;
+  transform: translateY(8px);
 }
 
 
@@ -527,7 +626,8 @@ p {
   display: flex;
   flex-direction: column;
   width: 45%;
-  height: 670px; 
+  height: 670px;
+  background-color: #0DBA52;
   overflow: hidden;
 
 }

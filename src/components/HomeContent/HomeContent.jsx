@@ -12,6 +12,7 @@ import gallery6 from '../../assets/imgs/gallery6.png'
 import facebook from '../../assets/imgs/Icono_facebook.png'
 import instagram from '../../assets/imgs/Icono_instagram.png'
 
+
 function HomeContent() {
   return (
     <>
@@ -30,7 +31,6 @@ function HomeContent() {
               <h2>Envío rápido</h2>
               <p>Contamos con envíos a domicilio en menos de 24 hs para que no tengas que moverte de tu casa o local.</p>
             </div>
-            <h2></h2>
           </div>
           <div className='homeInfoItem'>
             <h2>¡Hace tu pedido ahora!</h2>
