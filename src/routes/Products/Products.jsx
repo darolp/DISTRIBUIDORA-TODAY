@@ -10,9 +10,13 @@ function Products() {
       <Navbar />
       <Hero>
         <h2 className='heroTitle'>Conocé nuestra variedad de productos</h2>
-        <p>Contamos con una amplia variedad de productos congelados para que </p> 
-        <p> puedas disfrutar del desayuno a la cena. Y lo mejor, están listos en </p>
-        <p> minutos para que los disfrutes cuando quieras.</p>        
+        <img className="imagenSello" src="../src/assets/imgs/sello.png" alt="" />
+        <div className='infoBajoHero'>
+          <p>Contamos con una amplia variedad de productos congelados para que </p> 
+          <p> puedas disfrutar del desayuno a la cena. Y lo mejor, están listos en </p>
+          <p> minutos para que los disfrutes cuando quieras.</p>  
+        </div>
+             
       </Hero>
       <Productos/>
       <Footer />

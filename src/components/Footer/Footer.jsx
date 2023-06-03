@@ -8,12 +8,11 @@ function Footer() {
   return (
     <footer>
     <img src={logo2} alt=""/>
-    <p>HECHO COMO EN CASA &#x2764</p>
+    <p>HECHO COMO EN CASA <i class="fa-solid fa-heart"></i></p>
     <div className="comunicate">
       <p>Comunicate con nosotros </p>
-      <div className="comunicateSub">
-        <i className="fa-brands fa-whatsapp"></i>
-        <p>0261 334-0137</p>
+      <div className="comunicateSub">      
+        <p><i className="fa-brands fa-whatsapp whatsapp2"></i>0261 334-0137</p>
       </div>
 
     </div>

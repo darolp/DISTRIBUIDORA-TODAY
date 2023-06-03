@@ -4,8 +4,8 @@ import SubInfo from './SubInfo/SubInfo';
 const ItemHelado = ({data}) => {
     console.log(data.Sub)
     return (
-        <div>
-            <div>
+        <div className='ContainerHeladosData'>
+            <div className='HeladosData'>
                 <p>{data.nombre}</p>
                 <img src={`../src/assets/imgs/${data.img}.jpg`} alt="" />
             </div>

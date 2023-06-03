@@ -8,6 +8,7 @@ const Productos = () => {
 
     const [estado, setestado] = useState('Pastas');
     const [productosVisual, setproductosVisual] = useState([]);
+    const [loading, setloading] = useState(true)
 
 
 
@@ -17,6 +18,7 @@ const Productos = () => {
             .then(data => {                
                 const productosAux = <ItemDetail productos={data} estadoAux={estado}/>
                 setproductosVisual(productosAux)
+                setloading(false)
             })
     }, [estado])
     let classNameProductosView = 'productosView';
@@ -27,7 +29,7 @@ const Productos = () => {
         setestado(category);
     };
     return (
-        <>
+        <>            
             <div className="ProductosContainer">
                 <div className='navProductos'>
                     <ul>
@@ -38,10 +40,12 @@ const Productos = () => {
                         <li className={estado === 'Insumos' ? 'active' : ""} onClick={() => handleCategoryClick('Insumos')}>Insumos</li>
                     </ul>
                 </div>
+                {loading?<p className='Cargando'>Loading...</p>:( 
                 <div className={classNameProductosView}>
                     {productosVisual}
-                </div>
+                </div>) }
             </div>
+        
         </>
     );
 }
