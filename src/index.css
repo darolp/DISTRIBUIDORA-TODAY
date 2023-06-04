@@ -753,6 +753,100 @@ p {
   align-items: center;
 }
 
+/* Preguntas Frecuentes */
+
+.preguntasContainer{
+  background-color: #353230;
+  color: white;
+  border-radius: 15px;
+  width: 90%;
+  margin-top: 300px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 110px;
+}
+.inputBuscar{
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;  
+  padding-left: 2%;
+  font-size: 18px;
+}
+
+.inputBuscar:focus {
+  outline: none;  
+}
+.seccionesPreguntas{
+  background-color: white;  
+  color: black;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: 40px;
+  align-items: center;
+}
+
+.lineaAbajo{
+  border-bottom: 1px solid grey;
+
+}
+
+.displayNone{
+  display: none;
+}
+
+.infoPreguntas{
+  margin-top: 50px;
+  padding-bottom: 150px;
+}
+
+.botonBuscar {
+  height: 40px;
+  width: 118px;
+  background-color: #f37748;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  font-size: 18px;  
+  align-self: flex-end;
+}
+
+.fa-chevron-right{
+  color:var(--colorPrincipal)
+}
+
+.Envios,.Pagos,.Devoluciones,.Compras{
+  display:none;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.active2{
+  background-color: var(--colorPrincipal);
+  color: white;
+}
+
+.tituPreguntas{
+  font-family: var(--titulos);
+  padding-top: 30px;
+  margin-left: 5%;
+  font-size: 25px;
+}
+.containerInputBuscar{
+  margin-top: 40px;
+  display: flex;
+  margin-left: 5%;
+  gap: 10px;
+  justify-content: space-between;
+  width: 90%;
+}
 
 
 /* Footer */
