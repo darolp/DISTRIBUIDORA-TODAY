@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer>
     <img src={logo2} alt=""/>
-    <p>HECHO COMO EN CASA <i class="fa-solid fa-heart"></i></p>
+    <p>HECHO COMO EN CASA <i className="fa-solid fa-heart"></i></p>
     <div className="comunicate">
       <p>Comunicate con nosotros </p>
       <div className="comunicateSub">      
