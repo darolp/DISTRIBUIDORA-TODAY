@@ -51,7 +51,7 @@ function HomeContent() {
             <img src={gallery6} alt='gallery' />
           </div>
           <div className='galleryButton'>
-            <button>Ver todos los productos</button>
+            <Link>Ver todos los productos</Link>
           </div>
         </section>
         <section className='homeRedes'>

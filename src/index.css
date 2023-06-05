@@ -116,7 +116,7 @@ p {
   color: var(--complementario);
   font-size: 80px;
   font-weight: bold;
-  line-height: 100px;  
+  line-height: 100px;
   margin-bottom: 40px;
 }
 
@@ -131,35 +131,37 @@ p {
   color: var(--colorPrincipal);
 }
 
-.heroContent button {
+.heroContent a {
   border: none;
   color: var(--complementario);
   background-color: var(--colorPrincipal);
   padding: 10px;
   border-radius: 20px;
   margin-top: 20px;
+  text-decoration: none;
+  font-family: var(--textos);
 }
 
 /* Home */
-.homeContent{
+.homeContent {
   background-image: url('./assets/imgs/fondoHome.png');
   padding-top: 80px;
 }
 
-.homeInfoContainer{
+.homeInfoContainer {
   display: flex;
   justify-content: center;
   gap: 40px;
 }
 
-.homeCard{
+.homeCard {
   background-color: var(--resaltador);
   width: 400px;
   height: 276px;
   border-radius: 15px;
 }
 
-.marco{
+.marco {
   width: 400px;
   height: 276px;
   border-radius: 15px;
@@ -173,30 +175,30 @@ p {
   text-align: center;
 }
 
-.marco h2{
+.marco h2 {
   font-size: 42px;
   font-weight: bold;
 }
 
-.marco p{
+.marco p {
   font-size: 18px;
   padding: 0 20px;
   margin-top: 30px;
 }
 
-.marco img{
+.marco img {
   position: absolute;
   top: -35px;
   right: calc(50% - 40px);
 }
 
-.homeInfoItem{
+.homeInfoItem {
   height: 316px;
   width: 400px;
   text-align: center;
 }
 
-.homeInfoItem h2{
+.homeInfoItem h2 {
   font-size: 42px;
   font-weight: 900;
   color: var(--colorPrincipal);
@@ -204,7 +206,7 @@ p {
   background-color: var(--complementario);
 }
 
-.homeInfoItem button{
+.homeInfoItem button {
   border: none;
   background-color: var(--colorPrincipal);
   color: var(--complementario);
@@ -222,12 +224,12 @@ p {
   font-size: 1.1rem;
 }
 
-.homeInfoItem button img{
+.homeInfoItem button img {
   position: absolute;
   left: 25px;
 }
 
-.homeGallery{
+.homeGallery {
   background-color: var(--colorSecundario);
   color: var(--complementario);
 }
@@ -253,7 +255,7 @@ p {
   padding: 40px 25%;
 }
 
-.galleyContainer{
+.galleyContainer {
   display: grid;
   grid-template-columns: 400px 400px 400px;
   grid-template-rows: 1fr 1fr;
@@ -266,18 +268,18 @@ p {
   */
 }
 
-.galleyContainer img{
+.galleyContainer img {
   width: 100%;
 }
 
-.galleryButton{
+.galleryButton {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px 0;
 }
 
-.galleryButton button{
+.galleryButton button {
   background-color: var(--resaltador);
   padding: 15px;
   border-radius: 10px;
@@ -285,7 +287,20 @@ p {
   font-size: 18px;
 }
 
-.homeRedes{
+.galleryButton a {
+  background-color: var(--resaltador);
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-family: var(--textos);
+}
+
+
+
+.homeRedes {
   margin-top: 80px;
   display: flex;
   justify-content: center;
@@ -294,63 +309,67 @@ p {
   gap: 50px;
 }
 
-.seguinos p{
+.seguinos p {
   font-size: 24px;
 }
 
-.redes{
+.redes {
   display: flex;
   gap: 20px;
 }
 
-.navHome ul{
+.navHome ul {
   display: flex;
   font-size: 24px;
   font-style: var(--textos);
   padding-bottom: 50px;
+  background-color: #fff;
 }
-.navHome ul a{
+
+.navHome ul a {
   text-decoration: none;
   color: black;
   font-style: var(--textos);
+  
 }
 
-.navHome ul li{
+.navHome ul li {
   margin: 0 20px;
   padding: 0 20px;
+  
 }
 
-.navHome ul li::marker{
+.navHome ul li::marker {
   color: var(--colorPrincipal);
   font-size: 2rem;
 }
 
-.firstItem{
+.firstItem {
   list-style: none;
   transform: translateY(8px);
 }
 
 /* Nosotros */
 
-.nosotrosContainer{
+.nosotrosContainer {
   background-image: url('./assets/imgs/fondoHome.png');
   padding-top: 80px;
 }
 
-.nosotrosInfoContainer{
+.nosotrosInfoContainer {
   display: flex;
   justify-content: center;
   gap: 40px;
 }
 
-.nosotrosCard{
+.nosotrosCard {
   background-color: var(--fondoSecundario);
   width: 399px;
   height: 399px;
   border-radius: 15px;
 }
 
-.nosotrosMarco{
+.nosotrosMarco {
   width: 399px;
   height: 399px;
   border-radius: 15px;
@@ -364,26 +383,26 @@ p {
   text-align: center;
 }
 
-.nosotrosMarco h2{
+.nosotrosMarco h2 {
   font-size: 42px;
   font-weight: bold;
   color: var(--colorPrincipal);
 }
 
-.nosotrosMarco p{
+.nosotrosMarco p {
   font-size: 18px;
   padding: 0 20px;
   margin-top: 30px;
   color: var(--colorPrincipal);
 }
 
-.nosotrosMarco img{
+.nosotrosMarco img {
   position: absolute;
   top: -35px;
   right: -15px;
 }
 
-.nosotrosRedes{
+.nosotrosRedes {
   margin-top: 80px;
   display: flex;
   justify-content: center;
@@ -392,38 +411,39 @@ p {
   gap: 50px;
 }
 
-.seguinos p{
+.seguinos p {
   font-size: 24px;
 }
 
-.redes{
+.redes {
   display: flex;
   gap: 20px;
 }
 
-.navNosotros ul{
+.navNosotros ul {
   display: flex;
   font-size: 24px;
   font-style: var(--textos);
   padding-bottom: 50px;
 }
-.navNosotros ul a{
+
+.navNosotros ul a {
   text-decoration: none;
   color: black;
   font-style: var(--textos);
 }
 
-.navNosotros ul li{
+.navNosotros ul li {
   margin: 0 20px;
   padding: 0 20px;
 }
 
-.navNosotros ul li::marker{
+.navNosotros ul li::marker {
   color: black;
   font-size: 2rem;
 }
 
-.firstItem{
+.firstItem {
   list-style: none;
   transform: translateY(8px);
 }
@@ -582,21 +602,21 @@ p {
 
 /* Productos*/
 
-.productos{
+.productos {
   background-color: black;
   padding-bottom: 10px;
   padding-top: 60px;
   position: relative;
 }
 
-.productos::after{
+.productos::after {
   content: '';
   width: 100%;
   height: 35px;
   position: absolute;
   left: 0;
   top: -35px;
-  background-image: linear-gradient(to bottom, transparent , black);
+  background-image: linear-gradient(to bottom, transparent, black);
 }
 
 .ProductosContainer {
@@ -649,7 +669,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 45%;
-  height: 670px;  
+  height: 670px;
   overflow: hidden;
 
 }
@@ -702,73 +722,73 @@ p {
 
 }
 
-.subInfo{
+.subInfo {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   background-color: white;
   border-radius: 5px;
-  border:1px solid black;
-  font-family:var(--textos);
+  border: 1px solid black;
+  font-family: var(--textos);
   font-size: 20px;
   margin-left: 5%;
   margin-right: 5%;
   padding-left: 2%;
-  padding-right: 2%;  
-  margin-bottom: 2px;  
- }
-
- .textoSubInfo{ 
-  font-size: 16px;  
-  width: 40%;  
-  text-align: right;
-  
+  padding-right: 2%;
+  margin-bottom: 2px;
 }
 
-.HeladosData{
+.textoSubInfo {
+  font-size: 16px;
+  width: 40%;
+  text-align: right;
+
+}
+
+.HeladosData {
   background-color: var(--colorPrincipal);
   margin-left: 5%;
   margin-right: 5%;
   border-radius: 5px;
-  color:white;  
+  color: white;
   height: 50px;
-  margin-bottom: 2px; 
+  margin-bottom: 2px;
 }
 
-.HeladosData p{
-  font-family:var(--titulos);
+.HeladosData p {
+  font-family: var(--titulos);
   font-size: 35px;
   padding-left: 2%;
 }
 
-.productosViewHelados{
+.productosViewHelados {
   margin-top: 50px;
   padding-bottom: 50px;
 }
 
-.Cargando{
+.Cargando {
   font-size: 72px;
   font-family: var(--titulos);
-  color:var(--colorPrincipal);
+  color: var(--colorPrincipal);
   text-align: center;
   margin-top: 200px;
   padding-bottom: 200px;
 
 }
 
-.heroContent{
+.heroContent {
   position: relative;
 }
 
-.imagenSello{
+.imagenSello {
   position: absolute;
-  left:0;
+  left: 0;
 }
 
-.infoBajoHero{
+.infoBajoHero {
   width: 100%;
   margin-top: 50px;
-  margin-bottom: 50px;  
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -776,7 +796,7 @@ p {
 
 /* Preguntas Frecuentes */
 
-.FAQ{
+.FAQ {
   background-image: url('./assets/imgs/Fondo.png');
   display: flex;
   justify-content: center;
@@ -784,28 +804,29 @@ p {
   height: 100vh;
 }
 
-.preguntasContainer{
+.preguntasContainer {
   background-color: #353230;
   color: white;
   border-radius: 15px;
   width: 90%;
-  margin-top: 150px;  
+  margin-top: 150px;
 }
 
-.inputBuscar{
+.inputBuscar {
   width: 80%;
   height: 40px;
   border-radius: 5px;
-  border: none;  
+  border: none;
   padding-left: 2%;
   font-size: 18px;
 }
 
 .inputBuscar:focus {
-  outline: none;  
+  outline: none;
 }
-.seccionesPreguntas{
-  background-color: white;  
+
+.seccionesPreguntas {
+  background-color: white;
   color: black;
   width: 90%;
   margin-left: 5%;
@@ -818,16 +839,16 @@ p {
   align-items: center;
 }
 
-.lineaAbajo{
+.lineaAbajo {
   border-bottom: 1px solid grey;
 
 }
 
-.displayNone{
+.displayNone {
   display: none;
 }
 
-.infoPreguntas{
+.infoPreguntas {
   margin-top: 50px;
   padding-bottom: 150px;
 }
@@ -839,34 +860,38 @@ p {
   border: none;
   color: white;
   border-radius: 15px;
-  font-size: 18px;  
+  font-size: 18px;
   align-self: flex-end;
 }
 
-.fa-chevron-right{
-  color:var(--colorPrincipal)
+.fa-chevron-right {
+  color: var(--colorPrincipal)
 }
 
-.Envios,.Pagos,.Devoluciones,.Compras{
-  display:none;
+.Envios,
+.Pagos,
+.Devoluciones,
+.Compras {
+  display: none;
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-.active2{
+.active2 {
   background-color: var(--colorPrincipal);
   color: white;
 }
 
-.tituPreguntas{
+.tituPreguntas {
   font-family: var(--titulos);
   padding-top: 30px;
   margin-left: 5%;
   font-size: 25px;
 }
-.containerInputBuscar{
+
+.containerInputBuscar {
   margin-top: 40px;
   display: flex;
   margin-left: 5%;
@@ -895,13 +920,13 @@ footer img {
   height: 85px;
 }
 
-.comunicateSub{
-  display:flex;
+.comunicateSub {
+  display: flex;
   margin-top: 15px;
   gap: 15px;
 }
 
-.whatsapp2{
+.whatsapp2 {
   color: #0DBA52;
   background-color: white;
   border-radius: 100px;
