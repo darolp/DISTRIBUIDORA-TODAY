@@ -712,7 +712,17 @@ p {
   display: flex;
   flex-direction: column;
   width: 45%;
-  height: 670px;
+  height: 780px;
+  overflow: hidden;
+}
+
+.card2{
+  border: 1px black solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 650px;
   overflow: hidden;
 }
 
@@ -733,12 +743,13 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 
 .card-title {
   margin-top: 30px;
-  font-size: 72px;
+  font-size: 65px;
   text-align: center;
 }
 
@@ -747,7 +758,7 @@ p {
   margin-top: 55px;
   font-size: 22px;
   width: 70%;
-  height: 15%;
+  height: 30%;
 }
 
 .boton {
@@ -760,6 +771,22 @@ p {
   border: none;
   font-weight: bold;
   cursor: pointer;
+  margin-bottom: 30px;
+
+}
+
+.boton2 {
+  margin-top: 120px;
+  background-color: var(--colorPrincipal);
+  color: white;
+  width: 180px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 30px;
+  
 }
 
 .subInfo {
@@ -1004,6 +1031,7 @@ footer img {
 
 @media (min-width: 1px) and (max-width: 600px) {
 
+  /* footer  */
   footer{
     flex-wrap: wrap;
     padding-top: 20px;
@@ -1011,6 +1039,7 @@ footer img {
     gap: 25px;
   }
 
+  /*nav bar */
   .navbar img {
     margin: 10px 0 10px 15px;
     height: 43.5px;
@@ -1090,5 +1119,77 @@ footer img {
   .tituloMobile {
     display: block;
   }
+  /*  producots */
 
+  .card-title  {    
+    font-size: 50px;
+   }
+   .cardInfo p {    
+      font-size: 18px;
+    
+  }
+  .card {       
+    height: 650px;    
+    
+  }
+
+  .boton2{
+    margin-top: 100px;
+  }
+
+  .card2{    
+      
+      width:95%;      
+    
+  }
+  
+   /* contacto */
+
+
+   .contactoContainerSub {
+    
+    width: 90%;
+  }
+   .infoTopContacto {
+    
+    gap: 45px;
+    margin-bottom: 80px;
+    
+  }
+   .tituloInfoTopContacto {
+    font-size: 24px;    
+    margin-left: 30px;
+  }
+
+  .formulario {
+    font-size: 16px;
+  
+  }
+
+  .contactoFormContainer p {    
+    font-size: 25px;
+    margin-left: 30px;
+  }
+
+  .formulario{
+    height: 720px;    
+  }
+
+  .contenedorDatos {    
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contenedorDatos1,
+.contenedorDatos2,
+.contenedorDatos3 {
+  
+  width: 100%;
+}
+.botonSubmit {
+  height: 40px;
+  width: 90px;
+  font-size: 18px;
+  
+}
 }
