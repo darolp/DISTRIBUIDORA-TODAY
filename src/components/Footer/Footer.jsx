@@ -14,7 +14,6 @@ function Footer() {
       <div className="comunicateSub">      
         <p><i className="fa-brands fa-whatsapp whatsapp2"></i>0261 334-0137</p>
       </div>
-
     </div>
   </footer>
   )
