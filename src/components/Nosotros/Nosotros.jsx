@@ -39,8 +39,8 @@ function Nosotros() {
             <p>Seguinos en nuestras redes</p>
           </div>
           <div className='redes'>
-            <Link to='facebook'><img src={facebook} alt='redes' /></Link>
-            <Link to='instagram'><img src={instagram} alt='redes' /></Link>
+            <Link target='_blank' to='https://www.facebook.com/todayhechocomoencasa/'><img src={facebook} alt='redes' /></Link>
+            <Link target='_blank' to='https://www.instagram.com/todayproductoscongelados/'><img src={instagram} alt='redes' /></Link>
           </div>
           <div className='navNosotros'>
             <ul>

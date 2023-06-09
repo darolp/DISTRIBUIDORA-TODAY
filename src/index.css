@@ -224,7 +224,7 @@ p {
   background-color: var(--complementario);
 }
 
-.homeInfoItem button {
+.homeInfoItem a {
   border: none;
   background-color: var(--colorPrincipal);
   color: var(--complementario);
@@ -240,9 +240,10 @@ p {
   cursor: pointer;
   position: relative;
   font-size: 1.1rem;
+  text-decoration: none;
 }
 
-.homeInfoItem button img {
+.homeInfoItem a img {
   position: absolute;
   left: 25px;
 }

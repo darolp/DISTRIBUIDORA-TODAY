@@ -15,7 +15,7 @@ const Item = ({data}) => {
                     <div className="cardInfo">
                         <h5 className="card-title">{data.nombre}</h5>   
                         {data.texto && <p>{data.texto}</p>}                 
-                        <Link  to={"ws"}><button className={buttonClass}><i className="fa-brands fa-whatsapp whatsapp"></i> Hacé tu pedido</button></Link>
+                        <Link target='_blank' to={"https://wa.me/message/KC3ZX6SX4OU7N1"}><button className={buttonClass}><i className="fa-brands fa-whatsapp whatsapp"></i> Hacé tu pedido</button></Link>
                     </div>
                </div>   
         
